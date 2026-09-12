@@ -29,6 +29,9 @@ Everything is solder onto pref-boards an connected via pin-headers and jumpers
 
 <img src="./docs/drawio/HardwareSystemDiagram/HardwareSystemDiagram.svg" width="500">
 
+<img src="./docs/images/kicad1.png" width="400">
+<img src="./docs/images/kicad2.png" width="400">
+
 (Diagram of the System-Hardware components)
 
 The DACs are R-2R-Ladder DAC on a made custom PCB. The Input-Bits are feed from Octal-D-Latches ([74HC573](https://www.reichelt.de/oktal-d-type-latch-3-state-2--6-v-dil-20-74hc-573-p3264.html?search=74HC573)) in combination with some other logic ICs to reduce pin usage on the RPi Pico. Data sent via a 8-bit a parallel Bus to
@@ -44,4 +47,4 @@ Yellow: X-Channel, Blue: Y-Channel, Magenta: Digital Input Signal to the DAC. (Y
 For testing the optics I did use a Hameg MH 312 Oscilloscope (I got this one used from Kleinanzeigen, so its already falling apart: semi-broken Coupling-switch, not being able focus the beam correctly, X-Pos nob falling off all the time)
 
 ### Further Components
-- [Firmware](./firmware/README.md): Documentation is done by [doxygen](https://www.mintcalc.com/projects/osci-rendering/docs/index.html)
+- [Firmware](./firmware/README.md):
